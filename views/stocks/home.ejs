@@ -1,0 +1,26 @@
+<% include ../partials/homeHeader %>
+
+   <body>
+      <div class="container web">
+         <h3>by Gerry with <a href="https://www.freecodecamp.org/" target="_blank">Free Code Camp</a></h3>
+         <div class="row content">
+            <div class="span12">
+                   <div class="row">
+                       <div class="col-md-4"></div>
+                       <div class="col-md-4">
+                        <form id="look-form" class="form-inline">
+                          <input type="text" placeholder="Look up a stock" id="symbolsearch" class="input-">
+                          <span class="help-inline hide">searching...</span>
+                          <span class="help-inline hide label label-info"></span>
+                        </form> 
+                       </div>
+                       <div class="col-md-4"></div>
+                   </div>
+               <div id="chartDemoContainer" style="height: 500px; min-width: 500px; margin-bottom: 30px;"></div>
+               <div id="stockButtons">
+               </div>
+            </div>
+         </div>
+      </div>
+      
+<% include ../partials/homeFooter %>
