@@ -2,7 +2,7 @@ var express = require('express'),
     request = require('request'),
     http    = require('http'),
     app     = express(),
-    stocks  = [];
+    stocks  = [GE];
 
 var server = http.createServer(app),
     io     = require('socket.io').listen(server);
